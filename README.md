@@ -3,12 +3,14 @@
 ## Link: <a href="https://webdev-roadmap.vercel.app/"> https://webdev-roadmap.vercel.app/ </a>
 
 ### Technologies Used
-- ReactJS
-- NextJS
-- EsLint
-- Prettier
+<ul>
+<li>ReactJS</li>
+<li>NextJS</li>
+<li>EsLint</li>
+<li>Prettier</li>
+</ul>
 
-### Version
+#### Version
 Beta 1.1
 - Testing Deploy
 - Intial Create App
