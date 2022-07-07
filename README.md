@@ -10,10 +10,9 @@
 <li>Prettier</li>
 </ul>
 
-### Version
-Beta 1.3
-<h3>
-- Add Navigation
-- Add Heading
-- Fix Branches
-</h3>
+<br />
+
+### Version : Beta 1.3
+ - Add Navigation
+ - Add Heading
+ - Fix Branches
