@@ -11,7 +11,7 @@
 </ul>
 
 #### Version
-Beta 1.1
-- Testing Deploy
-- Intial Create App
-- Adding Google Font, Colors
+Beta 1.3
+- Add Navigation
+- Add Heading
+- Fix Branches
