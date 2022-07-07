@@ -1,6 +1,7 @@
 @import './helpers/colors';
 @import './helpers/reset';
 
+/* Header */
 header {
   display: grid;
   justify-content: center;
@@ -35,11 +36,40 @@ header {
   padding: 1rem 1.6rem;
   text-decoration: none;
   outline: none;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .header-btn:hover {
   background-color: $black;
   color: $white;
   border: 3px solid $white;
+}
+
+/* Navigation */
+nav {
+  position: sticky;
+  display: flex;
+  justify-content: space-around;
+  background-color: $grey;
+  padding: 2.2rem;
+}
+
+.navigation-btn {
+  background-color: $blue;
+  color: $white;
+  border: 3px solid transparent;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  font-weight: 500;
+  width: 15rem;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.navigation-btn:hover {
+  background-color: $white;
+  color: $blue;
+  border: 3px solid $blue;
 }
