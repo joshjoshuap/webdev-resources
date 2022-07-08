@@ -113,4 +113,46 @@ nav {
   background-color: #f9f9f9;
   color: #0aa1dd;
   border: 3px solid #0aa1dd;
+}
+
+/* Section */
+section {
+  padding: 9.2rem;
+}
+
+.section-title {
+  color: #2c698d;
+  font-size: 3.8rem;
+  text-align: center;
+}
+
+/* Front End */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.2rem;
+  margin: 4.8rem 0;
+}
+
+.card-item {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 2rem;
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
+  margin: 1.6rem 0;
+}
+
+.card-description {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-link {
+  color: #212121;
+  font-size: 1.6rem;
+  font-weight: 500;
 }/*# sourceMappingURL=main.css.map */
