@@ -4,6 +4,8 @@
 
 ### Technologies Used
 <ul>
+<li>CSS</li>
+<li>SASS</li>
 <li>ReactJS</li>
 <li>NextJS</li>
 <li>EsLint</li>
@@ -12,7 +14,7 @@
 
 <br />
 
-### Version : Beta 1.3
- - Add Navigation
- - Add Heading
- - Fix Branches
+### Version (1.0)
+ - add front end section
+ - add logo images
+ - fix styles
