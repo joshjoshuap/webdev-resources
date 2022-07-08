@@ -39,6 +39,10 @@ table {
   border-spacing: 0;
 }
 
+ul {
+  list-style: none;
+}
+
 /* Header */
 header {
   display: grid;
@@ -155,4 +159,9 @@ section {
   color: #212121;
   font-size: 1.6rem;
   font-weight: 500;
+  transition: all 200ms;
+}
+
+.card-link:hover {
+  color: #0aa1dd;
 }/*# sourceMappingURL=main.css.map */
