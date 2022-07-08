@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import HTMLLogo from '../public/html5-logo.svg';
-import CSSLogo from '../public/css3-logo.svg';
-import JSLogo from '../public/javascript-logo.svg';
+import HTMLLogo from '../public/images/html5-logo.svg';
+import CSSLogo from '../public//images/css3-logo.svg';
+import JSLogo from '../public//images/javascript-logo.svg';
 
 const HomePage = () => {
   return (
