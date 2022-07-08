@@ -13,7 +13,6 @@
 </ul>
 
 ### Version (1.2)
- -rename repository
- -change url link
- -rename title and change description
- -add bootstrap, tailwind, react in frontend section
+ - add meta tags
+ - change title
+ - fix readme docs
