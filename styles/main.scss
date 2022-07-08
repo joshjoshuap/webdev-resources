@@ -114,6 +114,10 @@ section {
   color: $black;
   font-size: 1.6rem;
   font-weight: 500;
+  transition: all 200ms;
 }
 
+.card-link:hover {
+  color: $blue;
+}
 
