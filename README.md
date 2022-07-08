@@ -18,3 +18,4 @@
  - add front end section
  - add logo images
  - fix styles
+ - disable no-unused-vars eslint rules
