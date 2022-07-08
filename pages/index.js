@@ -145,6 +145,10 @@ const HomePage = () => {
           </div>
         </div>
       </section>
+
+      <section id="backend">
+        <h1 class="section-title">BACK END DEVELOPMENT</h1>
+      </section>
     </>
   );
 };

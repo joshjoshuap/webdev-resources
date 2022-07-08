@@ -14,7 +14,9 @@
 
 <br />
 
-### Version (1.0)
+### Version (1.1)
  - add front end section
  - add logo images
  - fix styles
+ - disable no-unused-vars eslint rules
+ - fix branches
