@@ -12,8 +12,7 @@
 <li>Prettier</li>
 </ul>
 
-### Version (1.2)
- -rename repository
- -change url link
- -rename title and change description
- -add bootstrap, tailwind, react in frontend section
+### Version (1.3)
+ - add meta tags
+ - change title
+ - fix readme docs
