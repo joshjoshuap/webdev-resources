@@ -1,10 +1,10 @@
 import Image from 'next/image';
-import HTMLLogo from '../../public/images/html5-logo.svg';
-import CSSLogo from '../../public//images/css3-logo.svg';
-import JSLogo from '../../public//images/javascript-logo.svg';
-import BootstrapLogo from '../../public/images/bootstrap-logo.svg';
-import TailwindLogo from '../../public/images/tailwindcss-logo.svg';
-import ReactLogo from '../../public/images/reactjs-logo.svg';
+import HTMLIcon from '../../public/images/html5-icon.svg';
+import CSSIcon from '../../public//images/css3-icon.svg';
+import JSIcon from '../../public//images/javascript-icon.svg';
+import BootstrapIcon from '../../public/images/bootstrap-icon.svg';
+import TailwindIcon from '../../public/images/tailwindcss-icon.svg';
+import ReactIcon from '../../public/images/reactjs-icon.svg';
 
 const FrontEnd = () => {
   return (
@@ -14,7 +14,7 @@ const FrontEnd = () => {
         {/* HTML */}
         <div class="card-item">
           <div class="card-image">
-            <Image src={HTMLLogo} height={80} width={80} alt="HTML 5 Logo" />
+            <Image src={HTMLIcon} height={80} width={80} alt="HTML 5 Icon" />
           </div>
           <div class="card-description">
             <ul>
@@ -43,7 +43,7 @@ const FrontEnd = () => {
         {/* CSS */}
         <div class="card-item">
           <div class="card-image">
-            <Image src={CSSLogo} height={80} width={80} alt="HTML 5 Logo" />
+            <Image src={CSSIcon} height={80} width={80} alt="HTML 5 Icon" />
           </div>
           <div class="card-description">
             <ul>
@@ -82,7 +82,7 @@ const FrontEnd = () => {
         {/* Javascript */}
         <div class="card-item">
           <div class="card-image">
-            <Image src={JSLogo} height={80} width={80} alt="HTML 5 Logo" />
+            <Image src={JSIcon} height={80} width={80} alt="HTML 5 Icon" />
           </div>
           <div class="card-description">
             <ul>
@@ -124,7 +124,7 @@ const FrontEnd = () => {
         {/* Bootstrap */}
         <div class="card-item">
           <div class="card-image">
-            <Image src={BootstrapLogo} height={80} width={80} alt="HTML 5 Logo" />
+            <Image src={BootstrapIcon} height={80} width={80} alt="HTML 5 Icon" />
           </div>
           <div class="card-description">
             <ul>
@@ -166,7 +166,7 @@ const FrontEnd = () => {
         {/* Tailwind CSS */}
         <div class="card-item">
           <div class="card-image">
-            <Image src={TailwindLogo} height={80} width={80} alt="HTML 5 Logo" />
+            <Image src={TailwindIcon} height={80} width={80} alt="HTML 5 Icon" />
           </div>
           <div class="card-description">
             <ul>
@@ -199,7 +199,7 @@ const FrontEnd = () => {
         {/* React JS */}
         <div class="card-item">
           <div class="card-image">
-            <Image src={ReactLogo} height={80} width={80} alt="HTML 5 Logo" />
+            <Image src={ReactIcon} height={80} width={80} alt="HTML 5 Icon" />
           </div>
           <div class="card-description">
             <ul>
