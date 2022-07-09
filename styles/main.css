@@ -160,6 +160,7 @@ section {
   font-size: 1.6rem;
   font-weight: 500;
   transition: all 200ms;
+  text-decoration: none;
 }
 
 .card-link:hover {
