@@ -1,5 +1,4 @@
 # Web Development Resources
-
 ## Link: <a href="https://joshjoshuap-webdevresources.vercel.app/"> https://joshjoshuap-webdevresources.vercel.app/ </a>
 
 ### Technologies Used
@@ -11,3 +10,5 @@
 <li>EsLint</li>
 <li>Prettier</li>
 </ul>
+
+#### v1.4
