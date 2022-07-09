@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import { Html, Head, Main, NextScript } from 'next/document';
 
 export default function Document() {

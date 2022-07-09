@@ -11,8 +11,3 @@
 <li>EsLint</li>
 <li>Prettier</li>
 </ul>
-
-### Version (1.3)
- - add meta tags
- - change title
- - fix readme docs
