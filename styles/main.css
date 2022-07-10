@@ -132,7 +132,7 @@ section {
 }
 
 /* Front End */
-.card-container {
+.container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2.2rem;
@@ -151,12 +151,17 @@ section {
   margin: 1.6rem 0;
 }
 
-.card-description {
-  display: flex;
+.card-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   justify-content: space-around;
 }
 
 .card-link {
+  justify-self: center;
+}
+
+.card-link > a {
   color: #212121;
   font-size: 1.6rem;
   font-weight: 500;
@@ -164,6 +169,6 @@ section {
   text-decoration: none;
 }
 
-.card-link:hover {
+.card-link > a:hover {
   color: #0aa1dd;
 }/*# sourceMappingURL=main.css.map */
