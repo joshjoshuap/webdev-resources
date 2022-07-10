@@ -76,7 +76,8 @@ nav {
 
 /* Section */
 section {
-  padding: 9.2rem;
+  padding: 8rem;
+  padding-bottom: 0;
 }
 
 .section-title {
@@ -86,7 +87,7 @@ section {
 }
 
 /* Front End */
-.card-container {
+.container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2.2rem;
@@ -105,12 +106,17 @@ section {
   margin: 1.6rem 0;
 }
 
-.card-description {
-  display: flex;
+.card-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   justify-content: space-around;
 }
 
 .card-link {
+  justify-self: center;
+}
+
+.card-link > a {
   color: $black;
   font-size: 1.6rem;
   font-weight: 500;
@@ -118,7 +124,7 @@ section {
   text-decoration: none;
 }
 
-.card-link:hover {
+.card-link > a:hover {
   color: $blue;
 }
 

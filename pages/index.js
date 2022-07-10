@@ -1,7 +1,7 @@
-import Header from './components/header';
-import Navbar from './components/navbar';
-import FrontEnd from './components/frontend';
-import Backend from './components/backend';
+import Header from './sections/Header';
+import Navbar from './sections/Navbar';
+import FrontEnd from './sections/Frontend';
+import Backend from './sections/Backend';
 
 const HomePage = () => {
   return (
