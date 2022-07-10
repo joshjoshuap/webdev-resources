@@ -49,7 +49,7 @@ const Backend = () => {
             </ul>
           </div>
         </div>
-        
+
         {/* Express JS */}
         <div class="card-item">
           <div class="card-image">
@@ -67,6 +67,32 @@ const Backend = () => {
               <li>
                 <a href="https://restfulapi.net/" target="_blank" class="card-link">
                   Rest API
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* MongoDB */}
+        <div class="card-item">
+          <div class="card-image">
+            <Image src={MongoDBIcon} height={80} width={150} alt="HTML 5 Icon" />
+          </div>
+          <div class="card-description">
+            <ul>
+              <li>
+                <a
+                  href="https://www.mongodb.com/docs/manual/introduction/l"
+                  target="_blank"
+                  class="card-link">
+                  MongoDB
+                </a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="https://mongoosejs.com/docs/guide.html" target="_blank" class="card-link">
+                  Mongoose
                 </a>
               </li>
             </ul>
