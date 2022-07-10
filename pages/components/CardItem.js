@@ -2,11 +2,13 @@ import Image from 'next/image';
 
 const CardInfo = (info) => {
   return (
-    <span class="card-link">
-      <a href={info.link} target="_blank">
-        {info.title}
-      </a>
-    </span>
+    <>
+      <span class="card-link">
+        <a href={info.link} target="_blank">
+          {info.title}
+        </a>
+      </span>
+    </>
   );
 };
 
