@@ -89,36 +89,6 @@ header {
   border: 3px solid #bae8e8;
 }
 
-/* Navigation */
-nav {
-  position: -webkit-sticky;
-  position: sticky;
-  display: flex;
-  justify-content: space-around;
-  background-color: #dddddd;
-  padding: 2.2rem;
-}
-
-.navigation-btn {
-  background-color: #0aa1dd;
-  color: #f9f9f9;
-  border: 3px solid transparent;
-  border-radius: 5px;
-  font-size: 1.8rem;
-  font-weight: 500;
-  width: 15rem;
-  padding: 1rem;
-  text-align: center;
-  text-decoration: none;
-  transition: all 0.3s ease-in-out;
-}
-
-.navigation-btn:hover {
-  background-color: #f9f9f9;
-  color: #0aa1dd;
-  border: 3px solid #0aa1dd;
-}
-
 /* Section */
 section {
   padding: 8rem;

@@ -7,7 +7,7 @@ const Header = () => {
         websites and sample projects
       </p>
 
-      <a href="#navigation" className="header-btn">
+      <a href="#main" className="header-btn">
         Lets Study
       </a>
     </header>

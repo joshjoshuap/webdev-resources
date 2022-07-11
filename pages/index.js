@@ -1,5 +1,4 @@
 import Header from './sections/Header';
-import Navbar from './sections/Navbar';
 import FrontEnd from './sections/Frontend';
 import Backend from './sections/Backend';
 
@@ -7,7 +6,7 @@ const HomePage = () => {
   return (
     <>
       <Header />
-      <div className="container-2">
+      <div id='main' className="container-2">
         <FrontEnd />
         <Backend />
       </div>

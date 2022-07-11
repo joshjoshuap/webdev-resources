@@ -45,35 +45,6 @@ header {
   border: 3px solid $tertiary;
 }
 
-/* Navigation */
-nav {
-  position: sticky;
-  display: flex;
-  justify-content: space-around;
-  background-color: $grey;
-  padding: 2.2rem;
-}
-
-.navigation-btn {
-  background-color: $blue;
-  color: $white;
-  border: 3px solid transparent;
-  border-radius: 5px;
-  font-size: 1.8rem;
-  font-weight: 500;
-  width: 15rem;
-  padding: 1rem;
-  text-align: center;
-  text-decoration: none;
-  transition: all 0.3s ease-in-out;
-}
-
-.navigation-btn:hover {
-  background-color: $white;
-  color: $blue;
-  border: 3px solid $blue;
-}
-
 /* Section */
 section {
   padding: 8rem;
