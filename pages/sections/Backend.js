@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import CardItem from '../components/CardItem';
+import CardItem from '../../components/CardItem';
 import NodeIcon from '../../public/images/nodejs-icon.svg';
 import ExpressIcon from '../../public/images/expressjs-icon.svg';
 import MongoDBIcon from '../../public/images/mongodb-icon.svg';
