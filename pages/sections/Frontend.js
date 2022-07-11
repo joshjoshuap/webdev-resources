@@ -1,16 +1,16 @@
-import CardItem from '../../components/CardItem';
-import HTMLIcon from '../../public/images/html5-icon.svg';
-import CSSIcon from '../../public//images/css3-icon.svg';
-import JSIcon from '../../public//images/javascript-icon.svg';
-import BootstrapIcon from '../../public/images/bootstrap-icon.svg';
-import TailwindIcon from '../../public/images/tailwindcss-icon.svg';
-import ReactIcon from '../../public/images/reactjs-icon.svg';
+import CardItem from '/components/CardItem';
+import HTMLIcon from '/public/images/html5-icon.svg';
+import CSSIcon from '/public/images/css3-icon.svg';
+import JSIcon from '/public/images/javascript-icon.svg';
+import BootstrapIcon from '/public/images/bootstrap-icon.svg';
+import TailwindIcon from '/public/images/tailwindcss-icon.svg';
+import ReactIcon from '/public/images/reactjs-icon.svg';
 
 const FrontEnd = () => {
   return (
     <section id="frontend">
-      <h1 class="section-title">FRONT END DEVELOPMENT</h1>
-      <div class="container">
+      <h1 className="section-title">FRONT END DEVELOPMENT</h1>
+      <div className="container">
         {/* HTML */}
         <CardItem
           image={HTMLIcon}

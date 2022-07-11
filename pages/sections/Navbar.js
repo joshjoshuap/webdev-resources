@@ -1,19 +1,19 @@
 const Navbar = () => {
   return (
     <nav id="navigation">
-      <a href="#frontend" class="navigation-btn">
+      <a href="#frontend" className="navigation-btn">
         FRONT END
       </a>
-      <a href="#backend" class="navigation-btn">
+      <a href="#backend" className="navigation-btn">
         BACKEND END
       </a>
-      <a href="#fullstack" class="navigation-btn">
+      <a href="#fullstack" className="navigation-btn">
         FULLSTACK
       </a>
-      <a href="#challenges" class="navigation-btn">
+      <a href="#challenges" className="navigation-btn">
         CHALLENGES
       </a>
-      <a href="#tools" class="navigation-btn">
+      <a href="#tools" className="navigation-btn">
         TOOLS
       </a>
     </nav>
