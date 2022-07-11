@@ -6,7 +6,7 @@ const HomePage = () => {
   return (
     <>
       <Header />
-      <div id='main' className="container-2">
+      <div id="main">
         <FrontEnd />
         <Backend />
       </div>

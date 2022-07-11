@@ -57,17 +57,13 @@ section {
   text-align: center;
 }
 
-.container-2 {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-}
 /* Front End */
 .card-container {
   display: grid;
   grid-template-columns: repeat(3, auto);
-
-  gap: 2.2rem;
-  margin: 4.8rem 0;
+  justify-content: space-between;
+  width: 75%;
+  margin: 1rem auto;
 }
 
 .card-item {
@@ -81,8 +77,8 @@ section {
 }
 
 .card-info {
- display: flex;
- flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-link {
@@ -100,4 +96,3 @@ section {
 .card-link > a:hover {
   color: $blue;
 }
-
