@@ -158,7 +158,7 @@ section {
 }
 
 .card-link {
-  justify-self: center;
+  justify-self: start;
 }
 
 .card-link > a {
