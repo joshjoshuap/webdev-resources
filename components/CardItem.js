@@ -18,7 +18,7 @@ const CardItem = (props) => {
     <>
       <div className="card-item">
         <div className="card-image">
-          <Image src={props.image} height={80} width={80} alt="HTML 5 Icon" />
+          <Image src={props.image} height={70} width={70} alt="HTML 5 Icon" />
         </div>
         <div className="card-info">{infos.map(CardInfo)}</div>
       </div>
