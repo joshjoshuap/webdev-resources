@@ -1,4 +1,4 @@
-import CardItem from '../components/CardItem';
+import CardItem from '../../components/CardItem';
 import HTMLIcon from '../../public/images/html5-icon.svg';
 import CSSIcon from '../../public//images/css3-icon.svg';
 import JSIcon from '../../public//images/javascript-icon.svg';
