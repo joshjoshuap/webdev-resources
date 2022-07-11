@@ -7,9 +7,10 @@ const HomePage = () => {
   return (
     <>
       <Header />
-      <Navbar />
-      <FrontEnd />
-      <Backend />
+      <div className="container-2">
+        <FrontEnd />
+        <Backend />
+      </div>
     </>
   );
 };

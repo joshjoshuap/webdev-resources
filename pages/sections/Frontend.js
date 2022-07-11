@@ -10,7 +10,7 @@ const FrontEnd = () => {
   return (
     <section id="frontend">
       <h1 className="section-title">FRONT END DEVELOPMENT</h1>
-      <div className="container">
+      <div className="card-container">
         {/* HTML */}
         <CardItem
           image={HTMLIcon}

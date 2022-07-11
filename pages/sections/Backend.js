@@ -8,7 +8,7 @@ const Backend = () => {
   return (
     <section id="backend">
       <h1 className="section-title">BACK END DEVELOPMENT</h1>
-      <div className="container">
+      <div className="card-container">
         {/* NodeJS */}
         <CardItem
           image={NodeIcon}
