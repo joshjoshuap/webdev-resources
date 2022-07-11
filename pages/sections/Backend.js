@@ -1,14 +1,14 @@
 import Image from 'next/image';
-import CardItem from '../../components/CardItem';
-import NodeIcon from '../../public/images/nodejs-icon.svg';
-import ExpressIcon from '../../public/images/expressjs-icon.svg';
-import MongoDBIcon from '../../public/images/mongodb-icon.svg';
+import CardItem from '/components/CardItem';
+import NodeIcon from '/public/images/nodejs-icon.svg';
+import ExpressIcon from '/public/images/expressjs-icon.svg';
+import MongoDBIcon from '/public/images/mongodb-icon.svg';
 
 const Backend = () => {
   return (
     <section id="backend">
-      <h1 class="section-title">BACK END DEVELOPMENT</h1>
-      <div class="container">
+      <h1 className="section-title">BACK END DEVELOPMENT</h1>
+      <div className="card-container">
         {/* NodeJS */}
         <CardItem
           image={NodeIcon}

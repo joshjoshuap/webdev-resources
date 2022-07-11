@@ -10,5 +10,3 @@
 <li>EsLint</li>
 <li>Prettier</li>
 </ul>
-
-v 1.5

@@ -5,7 +5,7 @@
 header {
   display: grid;
   justify-content: center;
-  background-color: $primary;
+  background-color: $secondary;
   color: $white;
   padding: 4.8rem 3.2rem;
   text-align: center;
@@ -27,7 +27,7 @@ header {
 .header-btn {
   width: fit-content;
   background-color: $white;
-  color: $black;
+  color: $secondary;
   font-size: 1.6rem;
   font-weight: 700;
   border: 3px solid transparent;
@@ -40,38 +40,9 @@ header {
 }
 
 .header-btn:hover {
-  background-color: $black;
-  color: $white;
-  border: 3px solid $white;
-}
-
-/* Navigation */
-nav {
-  position: sticky;
-  display: flex;
-  justify-content: space-around;
-  background-color: $grey;
-  padding: 2.2rem;
-}
-
-.navigation-btn {
   background-color: $blue;
   color: $white;
-  border: 3px solid transparent;
-  border-radius: 5px;
-  font-size: 1.8rem;
-  font-weight: 500;
-  width: 15rem;
-  padding: 1rem;
-  text-align: center;
-  text-decoration: none;
-  transition: all 0.3s ease-in-out;
-}
-
-.navigation-btn:hover {
-  background-color: $white;
-  color: $blue;
-  border: 3px solid $blue;
+  border: 3px solid $tertiary;
 }
 
 /* Section */
@@ -87,11 +58,12 @@ section {
 }
 
 /* Front End */
-.container {
+.card-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2.2rem;
-  margin: 4.8rem 0;
+  grid-template-columns: repeat(3, auto);
+  justify-content: space-between;
+  width: 75%;
+  margin: 1rem auto;
 }
 
 .card-item {
@@ -101,19 +73,16 @@ section {
 }
 
 .card-image {
-  display: flex;
-  justify-content: center;
   margin: 1.6rem 0;
 }
 
 .card-info {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-link {
-  justify-self: center;
+  justify-self: start;
 }
 
 .card-link > a {
@@ -127,4 +96,3 @@ section {
 .card-link > a:hover {
   color: $blue;
 }
-
