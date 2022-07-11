@@ -98,13 +98,14 @@ section {
 .section-title {
   color: #2c698d;
   font-size: 3.8rem;
+  font-weight: 600;
   text-align: center;
 }
 
 /* Front End */
 .card-container {
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(4, 1fr);
   justify-content: space-between;
   width: 75%;
   margin: 1rem auto;
