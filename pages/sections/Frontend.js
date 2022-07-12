@@ -14,50 +14,54 @@ const FrontEnd = () => {
         {/* HTML */}
         <CardItem
           image={HTMLIcon}
+          title="HTML"
           info={[
-            { link: 'https://developer.mozilla.org/en-US/docs/Web/HTML', title: 'MDN Web HTML' },
-            { link: 'https://www.w3schools.com/html/default.asp', title: 'W3School HTML' },
+            { link: 'https://developer.mozilla.org/en-US/docs/Web/HTML', text: 'MDN Web HTML' },
+            { link: 'https://www.w3schools.com/html/default.asp', text: 'W3School HTML' },
           ]}
         />
 
         {/* CSS */}
         <CardItem
           image={CSSIcon}
+          title="CSS"
           info={[
-            { link: 'https://developer.mozilla.org/en-US/docs/Web/CSS', title: 'MDN Web CSS' },
-            { link: 'https://cssreference.io/', title: 'CSS Reference' },
-            { link: 'https://www.w3schools.com/css/default.asp', title: 'W3School CSS' },
-            { link: 'https://css-tricks.com/', title: 'CSS Tricks' },
+            { link: 'https://developer.mozilla.org/en-US/docs/Web/CSS', text: 'MDN Web CSS' },
+            { link: 'https://cssreference.io/', text: 'CSS Reference' },
+            { link: 'https://www.w3schools.com/css/default.asp', text: 'W3School CSS' },
+            { link: 'https://css-tricks.com/', text: 'CSS Tricks' },
           ]}
         />
 
         {/* Javascript */}
         <CardItem
           image={JSIcon}
+          title="Javascript"
           info={[
             {
               link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
-              title: 'MDN Web Javascript',
+              text: 'MDN Web Javascript',
             },
-            { link: 'https://eloquentjavascript.net/', title: 'Eloquent Javascript' },
-            { link: 'https://www.w3schools.com/js/default.asp', title: 'W3School Javascript' },
-            { link: 'https://github.com/rwaldron/idiomatic.js', title: 'Idiomatic Javascript' },
+            { link: 'https://eloquentjavascript.net/', text: 'Eloquent Javascript' },
+            { link: 'https://www.w3schools.com/js/default.asp', text: 'W3School Javascript' },
+            { link: 'https://github.com/rwaldron/idiomatic.js', text: 'Idiomatic Javascript' },
           ]}
         />
 
         {/* Bootstrap */}
         <CardItem
           image={BootstrapIcon}
+          title="Bootstrap"
           info={[
             {
               link: 'https://getbootstrap.com/docs/5.2/getting-started/introduction/',
-              title: 'Bootstrap 5.2',
+              text: 'Bootstrap 5.2',
             },
-            { link: 'https://bootsnipp.com/', title: 'Bootsnipp Template' },
-            { link: 'https://hackerthemes.com/bootstrap-tools/', title: 'Bootstrap Tools' },
+            { link: 'https://bootsnipp.com/', text: 'Bootsnipp Template' },
+            { link: 'https://hackerthemes.com/bootstrap-tools/', text: 'Bootstrap Tools' },
             {
               link: 'https://bootstrap-cheatsheet.themeselection.com/',
-              title: '  Bootstrap 5 Cheatsheet',
+              text: '  Bootstrap 5 Cheatsheet',
             },
           ]}
         />
@@ -65,24 +69,26 @@ const FrontEnd = () => {
         {/* Tailwind CSS */}
         <CardItem
           image={TailwindIcon}
+          title="Tailwind CSS"
           info={[
-            { link: 'https://tailwindcss.com/', title: 'Tailwind CSS' },
-            { link: 'https://www.tailwindtoolbox.com/tools', title: 'Tailwind Toolbox' },
-            { link: 'https://postsrc.com/components', title: 'Tailwind Components' },
-            { link: 'https://bestoftailwind.com/t/tools', title: 'Tailwind Tools' },
+            { link: 'https://tailwindcss.com/', text: 'Tailwind CSS' },
+            { link: 'https://www.tailwindtoolbox.com/tools', text: 'Tailwind Toolbox' },
+            { link: 'https://postsrc.com/components', text: 'Tailwind Components' },
+            { link: 'https://bestoftailwind.com/t/tools', text: 'Tailwind Tools' },
           ]}
         />
 
         {/* ReactJS */}
         <CardItem
           image={ReactIcon}
+          title="ReactJS"
           info={[
-            { link: 'https://reactjs.org/docs/getting-started.html', title: 'React JS' },
-            { link: 'https://mui.com/material-ui/getting-started/overview/', title: 'Material UI' },
-            { link: 'https://chakra-ui.com/getting-started', title: 'Chakra UI' },
-            { link: 'https://redux.js.org/introduction/getting-started', title: 'Redux' },
-            { link: 'https://reactrouter.com/docs/en/v6', title: 'React Router' },
-            { link: 'https://devhints.io/react', title: 'ReactJS Cheatsheet' },
+            { link: 'https://reactjs.org/docs/getting-started.html', text: 'React JS' },
+            { link: 'https://mui.com/material-ui/getting-started/overview/', text: 'Material UI' },
+            { link: 'https://chakra-ui.com/getting-started', text: 'Chakra UI' },
+            { link: 'https://redux.js.org/introduction/getting-started', text: 'Redux' },
+            { link: 'https://reactrouter.com/docs/en/v6', text: 'React Router' },
+            { link: 'https://devhints.io/react', text: 'ReactJS Cheatsheet' },
           ]}
         />
       </div>

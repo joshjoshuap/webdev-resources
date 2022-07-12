@@ -74,7 +74,12 @@ section {
 }
 
 .card-image {
-  margin: 1.6rem 0;
+  margin: 1.8rem 0;
+}
+
+.card-title {
+  color: $secondary;
+  font-size: 1.8rem;
 }
 
 .card-info {
