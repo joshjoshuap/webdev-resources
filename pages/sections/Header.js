@@ -3,12 +3,12 @@ const Header = () => {
     <header>
       <h1 className="header-title"> WEB DEVELOPER RESOURCES </h1>
       <p className="header-description">
-        My Personal resources and tools to learn web development. Contains Documentation, websites
-        and helpers tools to build web.
+        My personal list of resources and developer tools to build and learn web development.
+        Contains Documentation, websites, links and guides.
       </p>
 
       <a href="#main" className="header-btn">
-        Lets Study
+        Lets Start
       </a>
     </header>
   );
