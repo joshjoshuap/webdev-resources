@@ -9,27 +9,29 @@ const FullStack = () => {
       <div className="card-container">
         <CardItem
           image={VsCodeIcon}
+          title="VSCode"
           info={[
-            { link: 'https://code.visualstudio.com/', title: 'VSCode IDE' },
-            { link: 'https://vscodethemes.com/', title: 'VSCode Theme' },
+            { link: 'https://code.visualstudio.com/', text: 'VSCode IDE' },
+            { link: 'https://vscodethemes.com/', text: 'VSCode Theme' },
             {
               link: 'https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf',
-              title: 'VSCode Shorcuts',
+              text: 'VSCode Shorcuts',
             },
           ]}
         />
 
         <CardItem
           image={GitIcon}
+          title="GIT"
           info={[
-            { link: 'https://git-scm.com/downloads', title: 'Git Terminal' },
+            { link: 'https://git-scm.com/downloads', text: 'Git Terminal' },
             {
               link: 'hhttps://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow',
-              title: 'Git Worlkflow',
+              text: 'Git Worlkflow',
             },
             {
               link: 'https://www.conventionalcommits.org/en/v1.0.0/',
-              title: 'Semantic Commit Message',
+              text: 'Semantic Commit Message',
             },
           ]}
         />

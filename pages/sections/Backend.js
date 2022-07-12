@@ -12,33 +12,35 @@ const Backend = () => {
         {/* NodeJS */}
         <CardItem
           image={NodeIcon}
-          width={200}
+          title="NodeJS"
           info={[
-            { link: 'https://nodejs.org/dist/latest-v16.x/docs/api/', title: 'Node JS v16' },
-            { link: 'https://www.npmjs.com/', title: 'NPM' },
+            { link: 'https://nodejs.org/dist/latest-v16.x/docs/api/', text: 'Node JS v16' },
+            { link: 'https://www.npmjs.com/', text: 'NPM' },
             {
               link: 'https://github.com/goldbergyoni/nodebestpractices?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more',
-              title: 'Node Best Practices',
+              text: 'Node Best Practices',
             },
-            { link: 'https://github.com/sindresorhus/awesome-nodejs', title: ' Awesome NodeJS' },
+            { link: 'https://github.com/sindresorhus/awesome-nodejs', text: ' Awesome NodeJS' },
           ]}
         />
 
         {/* ExpressJS */}
         <CardItem
           image={ExpressIcon}
+          title="ExpressJS"
           info={[
-            { link: 'https://expressjs.com/en/4x/api.html', title: 'Express JS' },
-            { link: 'https://restfulapi.net/', title: 'Rest API' },
+            { link: 'https://expressjs.com/en/4x/api.html', text: 'Express JS' },
+            { link: 'https://restfulapi.net/', text: 'Rest API' },
           ]}
         />
 
         {/* MongoDB */}
         <CardItem
           image={MongoDBIcon}
+          title="MongoDB"
           info={[
-            { link: 'https://www.mongodb.com/docs/manual/introduction/l', title: 'MongoDB' },
-            { link: 'https://mongoosejs.com/docs/guide.html', title: 'Mongoose' },
+            { link: 'https://www.mongodb.com/docs/manual/introduction/l', text: 'MongoDB' },
+            { link: 'https://mongoosejs.com/docs/guide.html', text: 'Mongoose' },
           ]}
         />
       </div>

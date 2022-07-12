@@ -5,7 +5,7 @@ const CardInfo = (info) => {
     <>
       <span className="card-link">
         <a href={info.link} target="_blank">
-          {info.title}
+          {info.text}
         </a>
       </span>
     </>
@@ -19,6 +19,7 @@ const CardItem = (props) => {
       <div className="card-item">
         <div className="card-image">
           <Image src={props.image} height={70} width={70} alt="HTML 5 Icon" />
+          <h1 className="card-title">{props.title}</h1>
         </div>
         <div className="card-info">{infos.map(CardInfo)}</div>
       </div>
