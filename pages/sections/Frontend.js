@@ -1,4 +1,5 @@
 import { resourcesInfo } from '/js/resources-info.js';
+import Card from '/components/Card';
 import CardItem from '/components/CardItem';
 import HTMLIcon from '/public/images/html5-icon.svg';
 import CSSIcon from '/public/images/css3-icon.svg';
@@ -12,7 +13,7 @@ const FrontEnd = () => {
   return (
     <section id="frontend">
       <h1 className="section-title">FRONT END DEVELOPMENT</h1>
-      <div className="card-container">
+      <Card>
         <CardItem image={HTMLIcon} title={frontEndInfo.HTML.title} info={frontEndInfo.HTML.item} />
         <CardItem image={CSSIcon} title={frontEndInfo.CSS.title} info={frontEndInfo.CSS.item} />
         <CardItem
@@ -35,7 +36,7 @@ const FrontEnd = () => {
           title={frontEndInfo.ReactJS.title}
           info={frontEndInfo.ReactJS.item}
         />
-      </div>
+      </Card>
     </section>
   );
 };

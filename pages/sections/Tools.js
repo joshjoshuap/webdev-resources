@@ -1,4 +1,5 @@
 import { resourcesInfo } from '/js/resources-info.js';
+import Card from '/components/Card';
 import CardItem from '/components/CardItem';
 import CompilerIcon from '/public/images/compiler-icon.png';
 import HostingIcon from '/public/images/hosting-icon.png';
@@ -15,7 +16,7 @@ const Tools = () => {
   return (
     <section id="tools">
       <h1 className="section-title">TOOLS AND HELPERS</h1>
-      <div className="card-container">
+      <Card>
         <CardItem
           image={CompilerIcon}
           title={toolsInfo.Compiler.title}
@@ -49,7 +50,7 @@ const Tools = () => {
           title={toolsInfo.Productive.title}
           info={toolsInfo.Productive.item}
         />
-      </div>
+      </Card>
     </section>
   );
 };

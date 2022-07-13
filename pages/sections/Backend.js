@@ -1,5 +1,5 @@
 import { resourcesInfo } from '/js/resources-info.js';
-import Image from 'next/image';
+import Card from '/components/Card';
 import CardItem from '/components/CardItem';
 import NodeIcon from '/public/images/nodejs-icon.svg';
 import ExpressIcon from '/public/images/expressjs-icon.svg';
@@ -10,7 +10,7 @@ const Backend = () => {
   return (
     <section id="backend">
       <h1 className="section-title">BACK END DEVELOPMENT</h1>
-      <div className="card-container">
+      <Card>
         <CardItem
           image={NodeIcon}
           title={backEndInfo.NodeJS.title}
@@ -26,7 +26,7 @@ const Backend = () => {
           title={backEndInfo.MongoDB.title}
           info={backEndInfo.MongoDB.item}
         />
-      </div>
+      </Card>
     </section>
   );
 };

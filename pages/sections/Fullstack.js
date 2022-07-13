@@ -1,4 +1,5 @@
 import { resourcesInfo } from '/js/resources-info.js';
+import Card from '/components/Card';
 import CardItem from '/components/CardItem';
 import VsCodeIcon from '/public/images/vscode-icon.svg';
 import GitIcon from '/public/images/git-icon.svg';
@@ -8,14 +9,14 @@ const FullStack = () => {
   return (
     <section id="fullstack">
       <h1 className="section-title">FULLSTACK DEVELOPMENT</h1>
-      <div className="card-container">
+      <Card>
         <CardItem
           image={VsCodeIcon}
           title={fullStackInfo.VSCode.title}
           info={fullStackInfo.VSCode.item}
         />
         <CardItem image={GitIcon} title={fullStackInfo.Git.title} info={fullStackInfo.Git.item} />
-      </div>
+      </Card>
     </section>
   );
 };
