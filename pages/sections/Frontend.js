@@ -1,3 +1,5 @@
+import { resourcesInfo } from '/js/resources-info.js';
+import Card from '/components/Card';
 import CardItem from '/components/CardItem';
 import HTMLIcon from '/public/images/html5-icon.svg';
 import CSSIcon from '/public/images/css3-icon.svg';
@@ -7,91 +9,34 @@ import TailwindIcon from '/public/images/tailwindcss-icon.svg';
 import ReactIcon from '/public/images/reactjs-icon.svg';
 
 const FrontEnd = () => {
+  let frontEndInfo = resourcesInfo[0].frontEndResources;
   return (
     <section id="frontend">
       <h1 className="section-title">FRONT END DEVELOPMENT</h1>
-      <div className="card-container">
-        {/* HTML */}
-        <CardItem
-          image={HTMLIcon}
-          title="HTML"
-          info={[
-            { link: 'https://developer.mozilla.org/en-US/docs/Web/HTML', text: 'MDN Web HTML' },
-            { link: 'https://www.w3schools.com/html/default.asp', text: 'W3School HTML' },
-          ]}
-        />
-
-        {/* CSS */}
-        <CardItem
-          image={CSSIcon}
-          title="CSS"
-          info={[
-            { link: 'https://developer.mozilla.org/en-US/docs/Web/CSS', text: 'MDN Web CSS' },
-            { link: 'https://cssreference.io/', text: 'CSS Reference' },
-            { link: 'https://www.w3schools.com/css/default.asp', text: 'W3School CSS' },
-            { link: 'https://css-tricks.com/', text: 'CSS Tricks' },
-          ]}
-        />
-
-        {/* Javascript */}
+      <Card>
+        <CardItem image={HTMLIcon} title={frontEndInfo.HTML.title} info={frontEndInfo.HTML.item} />
+        <CardItem image={CSSIcon} title={frontEndInfo.CSS.title} info={frontEndInfo.CSS.item} />
         <CardItem
           image={JSIcon}
-          title="Javascript"
-          info={[
-            {
-              link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
-              text: 'MDN Web Javascript',
-            },
-            { link: 'https://eloquentjavascript.net/', text: 'Eloquent Javascript' },
-            { link: 'https://www.w3schools.com/js/default.asp', text: 'W3School Javascript' },
-            { link: 'https://github.com/rwaldron/idiomatic.js', text: 'Idiomatic Javascript' },
-          ]}
+          title={frontEndInfo.Javascript.title}
+          info={frontEndInfo.Javascript.item}
         />
-
-        {/* Bootstrap */}
         <CardItem
           image={BootstrapIcon}
-          title="Bootstrap"
-          info={[
-            {
-              link: 'https://getbootstrap.com/docs/5.2/getting-started/introduction/',
-              text: 'Bootstrap 5.2',
-            },
-            { link: 'https://bootsnipp.com/', text: 'Bootsnipp Template' },
-            { link: 'https://hackerthemes.com/bootstrap-tools/', text: 'Bootstrap Tools' },
-            {
-              link: 'https://bootstrap-cheatsheet.themeselection.com/',
-              text: '  Bootstrap 5 Cheatsheet',
-            },
-          ]}
+          title={frontEndInfo.Bootstrap.title}
+          info={frontEndInfo.Bootstrap.item}
         />
-
-        {/* Tailwind CSS */}
         <CardItem
           image={TailwindIcon}
-          title="Tailwind CSS"
-          info={[
-            { link: 'https://tailwindcss.com/', text: 'Tailwind CSS' },
-            { link: 'https://www.tailwindtoolbox.com/tools', text: 'Tailwind Toolbox' },
-            { link: 'https://postsrc.com/components', text: 'Tailwind Components' },
-            { link: 'https://bestoftailwind.com/t/tools', text: 'Tailwind Tools' },
-          ]}
+          title={frontEndInfo.TailwindCSS.title}
+          info={frontEndInfo.TailwindCSS.item}
         />
-
-        {/* ReactJS */}
         <CardItem
           image={ReactIcon}
-          title="ReactJS"
-          info={[
-            { link: 'https://reactjs.org/docs/getting-started.html', text: 'React JS' },
-            { link: 'https://mui.com/material-ui/getting-started/overview/', text: 'Material UI' },
-            { link: 'https://chakra-ui.com/getting-started', text: 'Chakra UI' },
-            { link: 'https://redux.js.org/introduction/getting-started', text: 'Redux' },
-            { link: 'https://reactrouter.com/docs/en/v6', text: 'React Router' },
-            { link: 'https://devhints.io/react', text: 'ReactJS Cheatsheet' },
-          ]}
+          title={frontEndInfo.ReactJS.title}
+          info={frontEndInfo.ReactJS.item}
         />
-      </div>
+      </Card>
     </section>
   );
 };

@@ -8,12 +8,10 @@ const HomePage = () => {
   return (
     <>
       <Header />
-      <div id="main">
-        <FrontEnd />
-        <Backend />
-        <FullStack />
-        <Tools />
-      </div>
+      <FrontEnd />
+      <Backend />
+      <FullStack />
+      <Tools />
     </>
   );
 };

@@ -8,7 +8,8 @@ export default function Document() {
         <meta name="title" content="Personal Web Resources | Joshua Pautanes" />
         <meta
           name="description"
-          content="My Personal resources and guide to learn and study web development. Contains Links, websites and sample projects"
+          content="My personal list of resources and developer tools to build and learn web development.
+          Contains Documentation, websites, links and guides."
         />
         <meta name="keywords" content="Web Resources, joshjoshuap, Joshua Pautanes" />
         <meta name="author" content="Joshua Pautanes" />
