@@ -1,40 +1,20 @@
+import { resourcesInfo } from '/js/resources-info.js';
 import CardItem from '/components/CardItem';
 import VsCodeIcon from '/public/images/vscode-icon.svg';
 import GitIcon from '/public/images/git-icon.svg';
 
 const FullStack = () => {
+  let fullStackInfo = resourcesInfo[0].fullStackResources;
   return (
     <section id="fullstack">
       <h1 className="section-title">FULLSTACK DEVELOPMENT</h1>
       <div className="card-container">
         <CardItem
           image={VsCodeIcon}
-          title="VSCode"
-          info={[
-            { link: 'https://code.visualstudio.com/', text: 'VSCode IDE' },
-            { link: 'https://vscodethemes.com/', text: 'VSCode Theme' },
-            {
-              link: 'https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf',
-              text: 'VSCode Shorcuts',
-            },
-          ]}
+          title={fullStackInfo.VSCode.title}
+          info={fullStackInfo.VSCode.item}
         />
-
-        <CardItem
-          image={GitIcon}
-          title="GIT"
-          info={[
-            { link: 'https://git-scm.com/downloads', text: 'Git Terminal' },
-            {
-              link: 'hhttps://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow',
-              text: 'Git Worlkflow',
-            },
-            {
-              link: 'https://www.conventionalcommits.org/en/v1.0.0/',
-              text: 'Semantic Commit Message',
-            },
-          ]}
-        />
+        <CardItem image={GitIcon} title={fullStackInfo.Git.title} info={fullStackInfo.Git.item} />
       </div>
     </section>
   );
