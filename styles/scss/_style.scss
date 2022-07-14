@@ -100,3 +100,22 @@ section {
 .card-link > a:hover {
   color: $blue;
 }
+
+footer {
+  background-color: $secondary;
+  padding: 1rem;
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 1.6rem;
+  color: $white;
+  font-weight: 400;
+  transition: all 200ms ease;
+}
+
+.footer-text:hover {
+  color: $tertiary;
+  border-bottom: 2px solid $white;
+  cursor: pointer;
+}
