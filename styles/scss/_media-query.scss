@@ -1,0 +1,110 @@
+// Laptop Small
+@media screen and (max-width: 1025px) {
+  section {
+    padding: 6rem;
+  }
+
+  .card-container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .card-container {
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+  }
+}
+
+// Mobile Large - Tablet
+@media screen and (max-width: 600px) {
+  header {
+    padding: 2rem;
+  }
+
+  .header-title {
+    font-size: 3.2rem;
+    letter-spacing: 0.5rem;
+  }
+
+  .header-description {
+    font-size: 1.6rem;
+    width: 100%;
+    text-align: left;
+  }
+
+  section {
+    padding: 2rem;
+    margin: 2rem 0;
+  }
+
+  .section-title {
+    font-size: 2.8rem;
+  }
+
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card-item {
+    padding: 3rem;
+  }
+}
+
+// Mobile Medium
+@media screen and (max-width: 400px) {
+  .header-title {
+    width: 100%;
+    font-size: 2.6rem;
+  }
+
+  .header-description {
+    font-size: 1.4rem;
+  }
+
+  .header-btn {
+    font-size: 1.4rem;
+  }
+  section {
+    padding: 1rem;
+  }
+
+  .section-title {
+    font-size: 2.4rem;
+  }
+
+  .card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .card-item {
+    flex-direction: row;
+    padding: 2rem 0;
+    margin: 1rem 0;
+  }
+
+  .card-image {
+    width: 10rem;
+    text-align: center;
+    margin: 0 1rem;
+  }
+
+  .card-title {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  header {
+    padding: 1.6rem;
+  }
+
+  .header-title {
+    font-size: 1.8rem;
+  }
+
+  .section-title {
+    font-size: 2.4rem;
+  }
+}
