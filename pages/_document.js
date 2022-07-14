@@ -13,6 +13,7 @@ export default function Document() {
         />
         <meta name="keywords" content="Web Resources, joshjoshuap, Joshua Pautanes" />
         <meta name="author" content="Joshua Pautanes" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 
         {/* Google Font */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
