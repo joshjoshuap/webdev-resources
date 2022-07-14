@@ -4,17 +4,6 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <title>Personal Web Resources | JoshJosh </title>
-        <meta name="title" content="Personal Web Resources | Joshua Pautanes" />
-        <meta
-          name="description"
-          content="My personal list of resources and developer tools to build and learn web development.
-          Contains Documentation, websites, links and guides."
-        />
-        <meta name="keywords" content="Web Resources, joshjoshuap, Joshua Pautanes" />
-        <meta name="author" content="Joshua Pautanes" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-
         {/* Google Font */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

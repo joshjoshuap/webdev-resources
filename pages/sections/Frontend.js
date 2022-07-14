@@ -1,18 +1,13 @@
+import { HTMLIcon, CSSIcon, JSIcon, BootstrapIcon, TailwindIcon, ReactIcon } from '/js/image-icon';
 import { resourcesInfo } from '/js/resources-info.js';
+import Section from '/components/Section';
 import Card from '/components/Card';
 import CardItem from '/components/CardItem';
-import HTMLIcon from '/public/images/html5-icon.svg';
-import CSSIcon from '/public/images/css3-icon.svg';
-import JSIcon from '/public/images/javascript-icon.svg';
-import BootstrapIcon from '/public/images/bootstrap-icon.svg';
-import TailwindIcon from '/public/images/tailwindcss-icon.svg';
-import ReactIcon from '/public/images/reactjs-icon.svg';
 
 const FrontEnd = () => {
   let frontEndInfo = resourcesInfo[0].frontEndResources; // fetch the objects from resources-info,js
   return (
-    <section id="frontend">
-      <h1 className="section-title">FRONT END DEVELOPMENT</h1>
+    <Section id="frontend" title="Front End Development">
       <Card>
         {/* HTML */}
         <CardItem image={HTMLIcon} title={frontEndInfo.HTML.title} info={frontEndInfo.HTML.item} />
@@ -48,7 +43,7 @@ const FrontEnd = () => {
           info={frontEndInfo.ReactJS.item}
         />
       </Card>
-    </section>
+    </Section>
   );
 };
 

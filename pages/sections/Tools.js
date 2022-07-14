@@ -1,21 +1,23 @@
+import {
+  CompilerIcon,
+  HostingIcon,
+  CSSIcon,
+  TypographyIcon,
+  ColorIcon,
+  HappyIcon,
+  ImageIcon,
+  ImageToolsIcon,
+  CodingIcon,
+} from '/js/image-icon';
 import { resourcesInfo } from '/js/resources-info.js';
+import Section from '/components/Section';
 import Card from '/components/Card';
 import CardItem from '/components/CardItem';
-import CompilerIcon from '/public/images/compiler-icon.png';
-import HostingIcon from '/public/images/hosting-icon.png';
-import ColorIcon from '/public/images/colors-icon.png';
-import CSSIcon from '/public/images/css3-icon.svg';
-import TypographyIcon from '/public/images/typography-icon.png';
-import HappIcon from '/public/images/happy-icon.png';
-import ImageIcon from '/public/images/image-icon.png';
-import ImageToolsIcon from '/public/images/imagetools-icon.png';
-import CodingIcon from '/public/images/coding-icon.png';
 
 const Tools = () => {
   let toolsInfo = resourcesInfo[0].toolsResources; // fetch the objects from resources-info,js
   return (
-    <section id="tools">
-      <h1 className="section-title">TOOLS AND HELPERS</h1>
+    <Section id="tools" title="Tools and Helpers">
       <Card>
         {/* Compiler */}
         <CardItem
@@ -47,7 +49,7 @@ const Tools = () => {
         />
 
         {/* Icons */}
-        <CardItem image={HappIcon} title={toolsInfo.Icons.title} info={toolsInfo.Icons.item} />
+        <CardItem image={HappyIcon} title={toolsInfo.Icons.title} info={toolsInfo.Icons.item} />
 
         {/* Images */}
         <CardItem image={ImageIcon} title={toolsInfo.Images.title} info={toolsInfo.Images.item} />
@@ -66,7 +68,7 @@ const Tools = () => {
           info={toolsInfo.Productive.item}
         />
       </Card>
-    </section>
+    </Section>
   );
 };
 
