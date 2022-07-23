@@ -1,8 +1,8 @@
-import { HTMLIcon, CSSIcon, JSIcon, BootstrapIcon, TailwindIcon, ReactIcon } from '/js/image-icon';
-import { resourcesInfo } from '/js/resources-info.js';
-import Section from '/components/Section';
-import Card from '/components/Card';
-import CardItem from '/components/CardItem';
+import { HTMLIcon, CSSIcon, JSIcon, BootstrapIcon, TailwindIcon, ReactIcon } from '../../js/image-icon';
+import { resourcesInfo } from '../../js/resources-info.js';
+import Section from '../../components/Section';
+import Card from '../../components/Card';
+import CardItem from '../../components/CardItem';
 
 const FrontEnd = () => {
   let frontEndInfo = resourcesInfo[0].frontEndResources; // fetch the objects from resources-info,js
