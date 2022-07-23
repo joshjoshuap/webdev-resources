@@ -1,8 +1,8 @@
-import { VsCodeIcon, GitIcon } from '/js/image-icon';
-import { resourcesInfo } from '/js/resources-info.js';
-import Section from '/components/Section';
-import Card from '/components/Card';
-import CardItem from '/components/CardItem';
+import { VsCodeIcon, GitIcon } from '../../js/image-icon';
+import { resourcesInfo } from '../../js/resources-info.js';
+import Section from '../../components/Section';
+import Card from '../../components/Card';
+import CardItem from '../../components/CardItem';
 
 const FullStack = () => {
   let fullStackInfo = resourcesInfo[0].fullStackResources; // fetch the objects from resources-info,js

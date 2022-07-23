@@ -8,11 +8,11 @@ import {
   ImageIcon,
   ImageToolsIcon,
   CodingIcon,
-} from '/js/image-icon';
-import { resourcesInfo } from '/js/resources-info.js';
-import Section from '/components/Section';
-import Card from '/components/Card';
-import CardItem from '/components/CardItem';
+} from '../../js/image-icon';
+import { resourcesInfo } from '../../js/resources-info.js';
+import Section from '../../components/Section';
+import Card from '../../components/Card';
+import CardItem from '../../components/CardItem';
 
 const Tools = () => {
   let toolsInfo = resourcesInfo[0].toolsResources; // fetch the objects from resources-info,js

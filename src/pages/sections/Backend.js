@@ -1,8 +1,8 @@
-import { NodeIcon, ExpressIcon, MongoDBIcon } from '/js/image-icon';
-import { resourcesInfo } from '/js/resources-info.js';
-import Section from '/components/Section';
-import Card from '/components/Card';
-import CardItem from '/components/CardItem';
+import { NodeIcon, ExpressIcon, MongoDBIcon } from '../../js/image-icon';
+import { resourcesInfo } from '../../js/resources-info.js';
+import Section from '../../components/Section';
+import Card from '../../components/Card';
+import CardItem from '../../components/CardItem';
 
 const Backend = () => {
   let backEndInfo = resourcesInfo[0].backEndResources; // fetch the objects from resources-info,js
