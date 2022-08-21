@@ -1,5 +1,5 @@
 # Web Development Resources
-### Link: <a href="joshjoshuap-webdevresources.vercel.app/"> https://joshjoshuap-webdevresources.vercel.app/ </a>
+### Link: <a href="https://joshjoshuap-webdevresources.vercel.app/"> joshjoshuap-webdevresources.vercel.app/ </a>
 
 ### Technologies
 - HTML
