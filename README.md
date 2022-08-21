@@ -1,7 +1,7 @@
 # Web Development Resources
-## Link: <a href="https://joshjoshuap-webdevresources.vercel.app/"> https://joshjoshuap-webdevresources.vercel.app/ </a>
+### Link: <a href="https://joshjoshuap-webdevresources.vercel.app/"> https://joshjoshuap-webdevresources.vercel.app/ </a>
 
-### Technologies Used
+### Technologies
 - HTML
 - CSS
 - SASS
