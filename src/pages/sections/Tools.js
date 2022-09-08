@@ -1,4 +1,5 @@
 import {
+  APIIcon,
   CompilerIcon,
   HostingIcon,
   CSSIcon,
@@ -19,6 +20,13 @@ const Tools = () => {
   return (
     <Section id="tools" title="Tools and Helpers">
       <Card>
+        {/* API */}
+        <CardItem
+          image={APIIcon}
+          title={toolsInfo.API.title}
+          info={toolsInfo.API.item}
+        />
+
         {/* Compiler */}
         <CardItem
           image={CompilerIcon}

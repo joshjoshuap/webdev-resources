@@ -27,6 +27,7 @@ const resourcesInfo = [
           { text: 'Eloquent Javascript', link: 'https://eloquentjavascript.net/' },
           { text: 'W3School Javascript', link: 'https://www.w3schools.com/js/default.asp' },
           { text: 'Idiomatic Javascript', link: 'https://github.com/rwaldron/idiomatic.js' },
+          { text: 'Jquery Library', link: 'https://api.jquery.com/' },
         ],
       },
       Bootstrap: {
@@ -121,6 +122,14 @@ const resourcesInfo = [
       },
     },
     toolsResources: {
+      API: {
+        title: 'API',
+        item: [
+          { text: 'Free Public API', link: 'https://github.com/public-apis/public-apis' },
+          { text: 'Unsplash API', link: 'https://unsplash.com/developers' },
+          { text: 'Random Data', link: 'https://random-data-api.com/documentation' },
+        ],
+      },
       Compiler: {
         title: 'Online Compiler',
         item: [
@@ -132,8 +141,8 @@ const resourcesInfo = [
         title: 'Hosting Sites',
         item: [
           { text: 'Netlify', link: 'https://www.netlify.com/' },
-          { text: 'Heroku', link: 'https://www.heroku.com/' },
           { text: 'Vercel', link: 'https://vercel.com/' },
+          { text: 'Render', link: 'https://render.com/' },
         ],
       },
       Color: {
@@ -186,6 +195,7 @@ const resourcesInfo = [
           { text: 'Pixabay', link: 'https://pixabay.com/' },
           { text: 'Stocksnap', link: 'https://stocksnap.io/' },
           { text: 'Unsplash', link: 'https://unsplash.com/' },
+          { text: 'Giphy', link: 'https://giphy.com/' },
         ],
       },
       ImagesTools: {
@@ -193,6 +203,8 @@ const resourcesInfo = [
         item: [
           { text: 'Image Compressor', link: 'https://squoosh.app/' },
           { text: 'Remove Background', link: 'https://www.remove.bg/' },
+          { text: 'Designify', link: 'https://www.designify.com/' },
+          { text: 'Befunky', link: 'https://www.befunky.com/features/resize-image/' },
         ],
       },
       Productive: {
