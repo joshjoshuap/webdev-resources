@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Personal Web Resources | JoshJosh </title>
 
-        <meta name="title" content="Web Dev Resources | Josh Joshua" />
+        <meta name="title" content="Web Dev Resources | Joshua Pautanes" />
         <meta
           name="description"
           content="My personal list of resources and developer tools to build and learn web development.
