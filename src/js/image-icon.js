@@ -9,6 +9,7 @@ import ExpressIcon from '/public/images/expressjs-icon.svg';
 import MongoDBIcon from '/public/images/mongodb-icon.svg';
 import VsCodeIcon from '/public/images/vscode-icon.svg';
 import GitIcon from '/public/images/git-icon.svg';
+import APIIcon from '/public/images/api-icon.png';
 import CompilerIcon from '/public/images/compiler-icon.png';
 import HostingIcon from '/public/images/hosting-icon.png';
 import ColorIcon from '/public/images/colors-icon.png';
@@ -30,6 +31,7 @@ export {
   MongoDBIcon,
   VsCodeIcon,
   GitIcon,
+  APIIcon,
   CompilerIcon,
   HostingIcon,
   TypographyIcon,
