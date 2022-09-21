@@ -1,7 +1,14 @@
 const Footer = () => {
+  let year = new Date().getFullYear();
+
   return (
     <footer>
-      <span className="footer-text">Created By: Joshua Pautanes</span>
+      <p className="footer-copyright">&copy; Copyright {year} </p>
+      <p>
+        <a href="https://joshjoshuap.vercel.app/" className="footer-link" target="_blank">
+          Build By: Joshua Pautanes
+        </a>
+      </p>
     </footer>
   );
 };
