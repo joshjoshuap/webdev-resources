@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Personal Web Resources | JoshJosh </title>
+        <title>Personal Web Resources | Joshua Pautanes </title>
 
         <meta name="title" content="Web Dev Resources | Joshua Pautanes" />
         <meta
