@@ -93,6 +93,12 @@
     font-size: 1.4rem;
     text-align: center;
   }
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    font-size: 1.6rem;
+  }
 }
 
 @media screen and (max-width: 330px) {
