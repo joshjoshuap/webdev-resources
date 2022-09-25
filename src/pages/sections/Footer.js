@@ -5,7 +5,7 @@ const Footer = () => {
     <footer>
       <p className="footer-copyright">&copy; Copyright {year} </p>
       <p>
-        <a href="https://joshjoshuap.vercel.app/" className="footer-link" target="_blank">
+        <a href="https://www.joshjoshuap.site/" className="footer-link" target="_blank">
           Build By: Joshua Pautanes
         </a>
       </p>
