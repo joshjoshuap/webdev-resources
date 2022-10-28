@@ -2,9 +2,13 @@
 
 ## Link - [joshjoshuap-webdevresources.vercel.app](https://joshjoshuap-webdevresources.vercel.app/)
 
+<br />
+
 ## About
 
 My personal list of resources and developer tools to build and learn web development. Contains Documentation, websites, links and guides.
+
+<br />
 
 ## Technologies
 
@@ -15,6 +19,8 @@ My personal list of resources and developer tools to build and learn web develop
 ![Next][NextIcon]
 ![ESLint][EsLintIcon]
 ![Prettier][PrettierIcon]
+
+<br />
 
 ## Getting Started
 
@@ -47,11 +53,13 @@ Software and Tools needed to install and download
     npm run dev
     ```
 
+<br />
+
 ## Contributing
 
 This project is open for collaboration and contributors. You can add more resources links, redesign or add more features and technologies. Feel free to review my project and open to help for improvement
 
-### Instructions
+### Instruction
 
 1. Fork the Project
 2. Create your Feature Branch or Clone the Development Branch
