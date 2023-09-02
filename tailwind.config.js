@@ -20,8 +20,8 @@ export default {
       },
     },
     fontFamily: {
-      quicksand: ["Poppins", "sans-serif"],
-      dmmono: ["Roboto", "mono"],
+      quicksand: ["Quicksand", "sans-serif"],
+      dmmono: ["DM Mono", "mono"],
       robotoslab: ["Roboto Slab", "serif"],
     },
   },
