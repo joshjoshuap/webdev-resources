@@ -7,8 +7,7 @@ let navItemList = [
   { title: "BACK END", link: "#back-end" },
   { title: "DEVELOPMENT", link: "#development" },
   { title: "TOOLS", link: "#tools" },
-  { title: "COLORS", link: "#colors" },
-  { title: "TYPOGRAPHY", link: "#typography" },
+  { title: "DESIGN", link: "#design" },
   { title: "ICONS", link: "#icons" },
   { title: "IMAGES", link: "#images" },
 ];
