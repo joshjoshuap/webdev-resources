@@ -1,6 +1,6 @@
 import Navigation from "../components/Navigation";
-import headingImage from "../../public/images/heading.png";
-import githubIcon from "/public/icons/github-icon.svg";
+import headingImage from "../assets/images/heading.png";
+import githubIcon from "../assets/icons/github-icon.svg";
 
 export default function Header() {
   return (
@@ -8,10 +8,10 @@ export default function Header() {
       <Navigation />
       <div className="flex w-10/12 mx-auto">
         <div className="flex flex-col justify-center">
-          <h1 className="text-5xl font-bold text-blue leading-tight">
+          <h1 className="text-5xl font-bold leading-tight text-blue">
             WEB DEVELOPMENT RESOURCES FOR YOU
           </h1>
-          <p className="text-xl font-semibold mt-5">
+          <p className="mt-5 text-xl font-semibold">
             List of resources and developer tools to build and learn web
             development. Contains Documentation, websites, links and guides.
           </p>
@@ -22,7 +22,7 @@ export default function Header() {
             </p>
             <a
               href="https://github.com/joshjoshuap/webdev-resources"
-              className="flex items-center gap-2 border-2 border-transparent w-fit py-1 px-2 rounded hover:border-blue hover:bg-white transition-all duration-150"
+              className="flex items-center gap-2 px-2 py-1 transition-all duration-150 border-2 border-transparent rounded w-fit hover:border-blue hover:bg-white"
             >
               <img
                 src={githubIcon}

@@ -19,7 +19,7 @@ export default function Navigation() {
   return (
     <>
       <nav
-        className="font-bold mx-auto flex max-w-7xl items-center justify-start md:justify-center p-10 lg:px-8 "
+        className="flex items-center justify-start p-10 mx-auto font-bold max-w-7xl md:justify-center lg:px-8 "
         aria-label="Global"
       >
         <div className="flex lg:hidden">
@@ -30,7 +30,7 @@ export default function Navigation() {
           >
             <span className="sr-only">Open main menu</span>
             <Bars3Icon
-              className="h-6 w-6"
+              className="w-6 h-6"
               aria-hidden="true"
             />
           </button>
@@ -40,7 +40,7 @@ export default function Navigation() {
             <a
               key={index}
               href={item.link}
-              className="text-xl leading-6 text-black hover:text-gray hover:underline transition-all duration-100"
+              className="text-xl leading-6 text-black transition-all duration-100 hover:text-gray hover:underline"
             >
               {item.title}
             </a>
@@ -54,7 +54,7 @@ export default function Navigation() {
         onClose={setMobileMenuOpen}
       >
         <div className="fixed inset-0 z-10" />
-        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full px-6 py-6 overflow-y-auto bg-white sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <button
               type="button"
@@ -63,14 +63,14 @@ export default function Navigation() {
             >
               <span className="sr-only">Close menu</span>
               <XMarkIcon
-                className="h-6 w-6"
+                className="w-6 h-6"
                 aria-hidden="true"
               />
             </button>
           </div>
-          <div className="mt-6 flow-root">
+          <div className="flow-root mt-6">
             <div className="-my-6 divide-y divide-gray-500/10">
-              <div className="flex flex-col space-y-2 py-6">
+              <div className="flex flex-col py-6 space-y-2">
                 {navItemList.map((item, index) => (
                   <a
                     key={index}
