@@ -43,7 +43,10 @@ let backEndResourcesList = [
 
 export default function Backend() {
   return (
-    <section className="w-10/12 py-12 mx-auto bg-white">
+    <section
+      className="w-10/12 py-12 mx-auto bg-white"
+      id="back-end"
+    >
       <h1 className="text-6xl font-semibold text-center text-lightblue font-robotoslab">
         BACK END
       </h1>

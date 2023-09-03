@@ -118,7 +118,10 @@ let frontEndResourcesList = [
 
 export default function Frontend() {
   return (
-    <section className="w-10/12 py-12 mx-auto bg-white">
+    <section
+      className="w-10/12 py-12 mx-auto bg-white"
+      id="front-end"
+    >
       <h1 className="text-6xl font-semibold text-center text-lightblue font-robotoslab">
         FRONT END
       </h1>

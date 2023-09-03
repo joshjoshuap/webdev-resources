@@ -8,8 +8,7 @@ let navItemList = [
   { title: "DEVELOPMENT", link: "#development" },
   { title: "TOOLS", link: "#tools" },
   { title: "DESIGN", link: "#design" },
-  { title: "ICONS & IMAGES", link: "#icons" },
-  { title: "IMAGES", link: "#images" },
+  { title: "ICONS & IMAGES", link: "#icons-images" },
 ];
 
 export default function Navigation() {
