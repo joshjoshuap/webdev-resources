@@ -4,6 +4,7 @@ import Backend from "./Sections/Backend";
 import Development from "./Sections/Development";
 import Tools from "./Sections/Tools";
 import Design from "./Sections/Design";
+import IconImages from "./Sections/IconImages";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Development />
       <Tools />
       <Design />
+      <IconImages />
     </>
   );
 }
