@@ -4,7 +4,7 @@ import githubIcon from "../assets/icons/github-icon.svg";
 
 export default function Header() {
   return (
-    <header className="bg-lightsilver font-quicksand">
+    <header className="pb-16 bg-lightsilver font-quicksand">
       <Navigation />
       <div className="flex w-10/12 mx-auto">
         <div className="flex flex-col justify-center">
