@@ -7,7 +7,7 @@ import cssIcon from "./icons/css-icon.svg";
 import expressjsIcon from "./icons/expressjs-icon.svg";
 import githubIcon from "./icons/github-icon.svg";
 import gitIcon from "./icons/git-icon.svg";
-import htmlIcon from "../../public/icons./icons/html-icon.svg";
+import htmlIcon from "./icons/html-icon.svg";
 import iconsIcon from "./icons/icons-icon.png";
 import imageIcon from "./icons/image-icon.png";
 import imagetoolsIcon from "./icons/imagetools-icon.png";
