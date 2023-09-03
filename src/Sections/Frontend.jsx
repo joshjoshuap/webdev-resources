@@ -128,14 +128,14 @@ export default function Frontend() {
             className=""
             key={index}
           >
-            <div className="flex items-center gap-1">
+            <div className="flex flex-col gap-1">
               <img
                 src={item.icon}
                 className="w-16"
               />
               <h3 className="text-2xl font-semibold text-blue">{item.title}</h3>
             </div>
-            <div className="flex flex-col px-2">
+            <div className="flex flex-col">
               {item.item.map((item, index) => (
                 <a
                   key={index}
