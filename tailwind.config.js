@@ -16,7 +16,7 @@ export default {
         lightorange: "#FFB84C",
         darksilver: "#C4DFDF",
         silver: "#D2E9E9",
-        lightsilver: "#F4F9F9",
+        lightsilver: "#DDFEE4",
       },
     },
     fontFamily: {
