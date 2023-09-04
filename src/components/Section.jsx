@@ -1,46 +1,14 @@
-import { vscodeIcon, gitIcon } from "../assets/icons";
-
-let developmentResourcesList = [
-  {
-    title: "VSCode",
-    icon: vscodeIcon,
-    item: [
-      { text: "VSCode IDE", link: "https://code.visualstudio.com/" },
-      { text: "VSCode Theme", link: "https://vscodethemes.com/" },
-      {
-        text: "VSCode Shorcuts",
-        link: "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf",
-      },
-    ],
-  },
-  {
-    title: "Git",
-    icon: gitIcon,
-    item: [
-      { link: "https://git-scm.com/downloads", text: "Git Terminal" },
-      {
-        link: "hhttps://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow",
-        text: "Git Worlkflow",
-      },
-      {
-        link: "https://www.conventionalcommits.org/en/v1.0.0/",
-        text: "Semantic Commit Message",
-      },
-    ],
-  },
-];
-
-export default function Development() {
+export default function Section({ sectionTitle, resourcesList }) {
   return (
     <section
       className="w-10/12 py-12 mx-auto bg-white"
-      id="development"
+      id="tools"
     >
       <h1 className="text-4xl font-semibold text-center md:text-6xl text-lightblue font-robotoslab">
-        DEVELOPMENT
+        {sectionTitle}
       </h1>
       <div className="grid grid-cols-2 gap-5 mt-10 md:grid-cols-3 xl:grid-cols-4">
-        {developmentResourcesList.map((item, index) => (
+        {resourcesList.map((item, index) => (
           <div key={index}>
             <div className="flex flex-col gap-1">
               <img

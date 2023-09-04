@@ -1,4 +1,9 @@
-import { apiIcon, compilerIcon, codetoolsIcon, cssIcon } from "../assets/icons";
+import {
+  apiIcon,
+  compilerIcon,
+  codetoolsIcon,
+  cssIcon,
+} from "../assets/js/icons";
 
 let toolsResourcesList = [
   {
@@ -54,39 +59,4 @@ let toolsResourcesList = [
   },
 ];
 
-export default function Tools() {
-  return (
-    <section
-      className="w-10/12 py-12 mx-auto bg-white"
-      id="tools"
-    >
-      <h1 className="text-4xl font-semibold text-center md:text-6xl text-lightblue font-robotoslab">
-        TOOLS
-      </h1>
-      <div className="grid grid-cols-2 gap-5 mt-10 md:grid-cols-3 xl:grid-cols-4">
-        {toolsResourcesList.map((item, index) => (
-          <div key={index}>
-            <div className="flex flex-col gap-1">
-              <img
-                src={item.icon}
-                className="w-16"
-              />
-              <h3 className="text-2xl font-semibold text-blue">{item.title}</h3>
-            </div>
-            <div className="flex flex-col">
-              {item.item.map((item, index) => (
-                <a
-                  key={index}
-                  href={item.link}
-                  className="text-lg font-semibold transition-all duration-100 hover:text-blue hover:underline"
-                >
-                  {item.text}
-                </a>
-              ))}
-            </div>
-          </div>
-        ))}
-      </div>
-    </section>
-  );
-}
+export { toolsResourcesList };
