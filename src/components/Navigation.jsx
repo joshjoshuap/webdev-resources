@@ -3,8 +3,8 @@ import { Dialog, Popover } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 let navItemList = [
-  { title: "FRONT END", link: "#front-end" },
-  { title: "BACK END", link: "#back-end" },
+  { title: "FRONT END", link: "#frontend" },
+  { title: "BACK END", link: "#backend" },
   { title: "DEVELOPMENT", link: "#development" },
   { title: "TOOLS", link: "#tools" },
   { title: "DESIGN", link: "#design" },

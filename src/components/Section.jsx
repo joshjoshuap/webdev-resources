@@ -1,8 +1,8 @@
-export default function Section({ sectionTitle, resourcesList }) {
+export default function Section({ sectionID, sectionTitle, resourcesList }) {
   return (
     <section
       className="w-10/12 py-12 mx-auto bg-white"
-      id="tools"
+      id={sectionID}
     >
       <h1 className="text-4xl font-semibold text-center md:text-6xl text-lightblue font-robotoslab">
         {sectionTitle}
