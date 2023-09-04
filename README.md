@@ -2,7 +2,7 @@
 
 # Web Dev Resources
 
-## Link - [joshjoshuap-webdevresources.vercel.app/](https://joshjoshuap-webdevresources.vercel.app/)
+## Link - [joshjoshuap-webdevresources.vercel.app](https://joshjoshuap-webdevresources.vercel.app)
 
 ## Technologies
 
