@@ -4,19 +4,19 @@ import githubIcon from "../assets/icons/github-icon.svg";
 
 export default function Header() {
   return (
-    <header className="pb-16 bg-lightsilver font-quicksand">
+    <header className="pb-8 md:pb-16 bg-lightsilver font-quicksand">
       <Navigation />
-      <div className="flex w-10/12 mx-auto">
-        <div className="flex flex-col justify-center">
-          <h1 className="text-5xl font-bold leading-tight text-blue">
+      <div className="flex flex-col w-10/12 mx-auto lg:flex-row">
+        <div className="flex flex-col justify-center text-center lg:text-left">
+          <h1 className="text-2xl font-bold md:text-5xl text-blue">
             WEB DEVELOPMENT RESOURCES FOR YOU
           </h1>
-          <p className="mt-5 text-xl font-semibold">
+          <p className="mt-3 font-semibold md:mt-5 text-md md:text-xl">
             List of resources and developer tools to build and learn web
             development. Contains Documentation, websites, links and guides.
           </p>
-          <div className="mt-12">
-            <p className="italic text-gray">
+          <div className="flex flex-col items-center mt-8 md:mt-12 lg:items-start">
+            <p className="text-sm italic text-gray md:text-xl">
               “Open for collaboration just visit github repo and fork then pull
               request”
             </p>
@@ -32,7 +32,7 @@ export default function Header() {
             </a>
           </div>
         </div>
-        <div className="justify-self-center ">
+        <div className="hidden lg:block justify-self-center ">
           <img
             src={headingImage}
             className="w-screen"
