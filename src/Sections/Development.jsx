@@ -36,15 +36,12 @@ export default function Development() {
       className="w-10/12 py-12 mx-auto bg-white"
       id="development"
     >
-      <h1 className="text-6xl font-semibold text-center text-lightblue font-robotoslab">
+      <h1 className="text-4xl font-semibold text-center md:text-6xl text-lightblue font-robotoslab">
         DEVELOPMENT
       </h1>
-      <div className="grid grid-cols-4 mt-10 gap-y-5">
+      <div className="grid grid-cols-2 gap-5 mt-10 md:grid-cols-3 xl:grid-cols-4">
         {developmentResourcesList.map((item, index) => (
-          <div
-            className=""
-            key={index}
-          >
+          <div key={index}>
             <div className="flex flex-col gap-1">
               <img
                 src={item.icon}
