@@ -1,8 +1,15 @@
-# React + Vite
+![Website Image][project-image]
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Web Dev Resources
 
-Currently, two official plugins are available:
+## Link - [joshjoshuap-webdevresources.vercel.app/](https://joshjoshuap-webdevresources.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies
+
+- [Tailwind](https://tailwindcss.com/)
+- [React](https://reactjs.org/)
+- [ViteJS](https://vitejs.dev/)
+- [TailwindUI](https://tailwindui.com/)
+- [Vercel](https://vercel.com/)
+
+[project-image]: src/assets//images/webdevresources-image.png
